@@ -1,7 +1,7 @@
 package rr.senac.br;
 
 import java.util.Scanner;
-public class Pessoas {
+public class Main {
     public static void main(String[] args) {
         people p1 = new people();
         Scanner leia = new Scanner(System.in);
