@@ -62,9 +62,10 @@ public class people {
         System.out.print("\nSeu email: " + this.email);
         return this.email;
     }
-        public void setEmail(String email){
-            this.email = email;
-        }
+    
+    public void setEmail(String email){
+        this.email = email;
+    }
     
     public String getTelefone(){
         System.out.print("\nTELEFONE: " + this.telefone);
@@ -75,7 +76,7 @@ public class people {
         }
     
     public String getEndereço(){
-        System.out.print("Endereço: " + this.endereço);
+        System.out.print("\nEndereço: " + this.endereço);
         return this.endereço;
     }
         public void setEndereço(String endereço){
@@ -83,7 +84,7 @@ public class people {
         }
 
     public String getData(){
-        System.out.print("Data/Nascimento: ");
+        System.out.print("\nData/Nascimento: " + this.datanascimento);
         return this.datanascimento;
     }
         public void setData(String datanascimento){
