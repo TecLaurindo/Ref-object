@@ -1,6 +1,6 @@
 package rr.senac.br;
 
-public class funvionario {
+public class funcionario {
     public String cargo;
     public String matricula;
     public double salario;
