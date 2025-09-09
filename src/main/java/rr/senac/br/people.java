@@ -6,21 +6,30 @@ public class people {
     private String cpf;
     
     public String getNome(){
-        System.out.println("Seu nome é");
+        System.out.print("Seu nome é " + this.nome);
         return this.nome;
     }
 
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
     public int getIdade(){
-        System.out.println("e a sua idade é");
+        System.out.println("\ne a sua idade é " + this.idade );
         return this.idade;
     }
-    public void setCpf(String cpf){
+
+    public void setIdade(int idade){
+        this.idade = idade;
+    }
+
+    public String getCpf(){
+        System.out.print("\ne o seu CPF é esse " + this.cpf);
+        return this.cpf;
+    }
+        public void setCpf(String cpf){
         this.cpf = cpf;
     
-    }
-    public String getCpf(){
-        System.out.println("e o seu CPF é esse");
-        return this.cpf;
     }
 
 }

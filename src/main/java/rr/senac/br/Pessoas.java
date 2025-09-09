@@ -1,17 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package rr.senac.br;
 
-/**
- *
- * @author devlaurindex
- */
+import java.util.Scanner;
 public class Pessoas {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        people P1 = new people();
+        Scanner leia = new Scanner(System.in);
+        P1.setNome("Vinicus");
+        P1.setIdade(18);
+        P1.setCpf("999.999.999.999");
+
+        P1.getNome();
+        P1.getIdade();
+        P1.getCpf();
+        
     }
 }
-
