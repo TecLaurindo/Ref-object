@@ -4,11 +4,16 @@ public class people {
     public String nome;
     public int idade;
     private String cpf;
+    public String telefone;
+    public String endereço;
+    public String datanascimento;
+    public String email;
     public String Fala;
     public int Passo;
     
+
     public String getNome(){
-        System.out.print("Seu nome é " + this.nome);
+        System.out.print("NAME: " + this.nome);
         return this.nome;
     }
 
@@ -17,7 +22,7 @@ public class people {
     }
 
     public int getIdade(){
-        System.out.print("\ne a sua idade é " + this.idade );
+        System.out.print("\nIDADE: " + this.idade );
         return this.idade;
     }
 
@@ -26,7 +31,7 @@ public class people {
     }
 
     public String getCpf(){
-        System.out.print("\ne o seu CPF é esse " + this.cpf);
+        System.out.print("\nCPF: " + this.cpf);
         return this.cpf;
     }
 
@@ -52,4 +57,36 @@ public class people {
             this.Passo =  Passo;
         }
 
+
+    public String getEmail(){
+        System.out.print("\nSeu email: " + this.email);
+        return this.email;
+    }
+        public void setEmail(String email){
+            this.email = email;
+        }
+    
+    public String getTelefone(){
+        System.out.print("\nTELEFONE: " + this.telefone);
+        return this.telefone;
+    }
+        public void setTelefone(String telefone){
+            this.telefone = telefone;
+        }
+    
+    public String getEndereço(){
+        System.out.print("Endereço: " + this.endereço);
+        return this.endereço;
+    }
+        public void setEndereço(String endereço){
+            this.endereço = endereço;
+        }
+
+    public String getData(){
+        System.out.print("Data/Nascimento: ");
+        return this.datanascimento;
+    }
+        public void setData(String datanascimento){
+            this.datanascimento = datanascimento;
+        }
 }
