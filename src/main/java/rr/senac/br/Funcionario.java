@@ -1,12 +1,31 @@
 package rr.senac.br;
 
-public class Funcionario {
+public class Funcionario extends People{
     public String cargo;
     public String matricula;
     public double salario;
     public String setor;
 
-    public Funcionario(String nome, int idade, String cpf, String telefone) {
+    public Funcionario(
+                       String cargo,
+                       String matricula,
+                       double salario,
+                       String setor,
+                       String nome,
+                       int idade,
+                       String cpf,
+                       String telefone,
+                       String endereco,
+                       String dataNascimento,
+                       String email,
+                       String Fala,
+                       int Passo
+                       ) {
+        super(nome,idade,cpf,telefone,endereco,dataNascimento,email,Fala,Passo);
+        this.cargo = cargo;
+        this.matricula = matricula;
+        this.salario = salario;
+        this.setor = setor;
 
     }
 
