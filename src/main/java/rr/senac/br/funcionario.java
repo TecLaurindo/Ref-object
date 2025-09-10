@@ -6,6 +6,9 @@ public class funcionario {
     public double salario;
     public String setor;
 
+    public funcionario(String nome, int idade, String cpf, String telefone) {
+
+    }
 
     public String getCargo() {
         System.out.println("Cargo: ");
