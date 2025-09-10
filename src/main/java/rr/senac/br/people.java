@@ -10,7 +10,18 @@ public class people {
     public String email;
     public String Fala;
     public int Passo;
-    
+
+    public People(String nome,
+                  int idade,
+                  String cpf,
+                  String telefone,
+                  String endereço,
+                  String datanascimento,
+                  String email,
+                  String Fala,
+                  int Passo)
+    {
+    }
 
     public String getNome(){
         System.out.print("NAME: " + this.nome);
