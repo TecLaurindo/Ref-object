@@ -1,12 +1,12 @@
 package rr.senac.br;
 
-public class funcionario {
+public class Funcionario {
     public String cargo;
     public String matricula;
     public double salario;
     public String setor;
 
-    public funcionario(String nome, int idade, String cpf, String telefone) {
+    public Funcionario(String nome, int idade, String cpf, String telefone) {
 
     }
 

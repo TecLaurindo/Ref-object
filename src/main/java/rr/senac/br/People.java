@@ -1,6 +1,6 @@
 package rr.senac.br;
 
-public class people {
+public class People {
     public String nome;
     public int idade;
     private String cpf;
@@ -11,15 +11,16 @@ public class people {
     public String Fala;
     public int Passo;
 
-    public People(String nome,
-                  int idade,
-                  String cpf,
-                  String telefone,
-                  String endereço,
-                  String datanascimento,
-                  String email,
-                  String Fala,
-                  int Passo)
+    public People(
+            String nome,
+            int idade,
+            String cpf,
+            String telefone,
+            String endereço,
+            String datanascimento,
+            String email,
+            String Fala,
+            int Passo)
     {
     }
 
