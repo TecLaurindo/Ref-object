@@ -22,6 +22,15 @@ public class People {
             String Fala,
             int Passo)
     {
+        this.nome = nome;
+        this.idade = idade;
+        this.cpf = cpf;
+        this.telefone = telefone;
+        this.endereço = endereço;
+        this.datanascimento = datanascimento;
+        this.email = email;
+        this.Fala = Fala;
+        this.Passo = Passo;
     }
 
     public String getNome(){

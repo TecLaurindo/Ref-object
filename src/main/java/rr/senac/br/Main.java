@@ -13,6 +13,11 @@ public class Main {
                 "Slk não compensa",
                 6
         );
-        System.out.println("");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
+        p1.getNome();
+        p1 .getIdade();
+        p1.getEmail();
+
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
     }
 }
