@@ -30,7 +30,7 @@ public class Funcionario extends People{
     }
 
     public String getCargo() {
-        System.out.println("Cargo: ");
+        System.out.print("\nCargo: " + this.cargo);
         return this.cargo = this.cargo;
     }
     public void setCargo(String cargo) {
@@ -38,18 +38,21 @@ public class Funcionario extends People{
     }
 
     public String getMatricula() {
+        System.out.print("\nMatricula: " + this.matricula);
         return this.matricula;
     }
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
     public double getSalario() {
+        System.out.print("\nSalario: " + this.salario);
         return this.salario;
     }
     public void setSalario(double salario) {
         this.salario = salario;
     }
     public String getSetor() {
+        System.out.print("\nSetor: " + this.setor);
         return this.setor;
     }
     public void setSetor(String setor) {
