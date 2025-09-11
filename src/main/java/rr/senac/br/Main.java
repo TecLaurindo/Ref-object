@@ -2,21 +2,23 @@ package rr.senac.br;
 
 public class Main {
     public static void main(String[] args) {
-        People p1 = new People(
-                "Vinicius",
+        Funcionario f1 = new Funcionario(
+                "T.I",
+                "55454545",
+                5000,
+                "informatica",
+                "Vinicius Laurindo",
                 18,
-                "063.855.999.011",
+                "063.853.302-30",
                 "95 984286676",
-                "Rua do fulano",
+                "no Brasil",
                 "19/05/2007",
-                "tecteste@gmail.com",
-                "Slk não compensa",
-                6
+                "tecnicolaurindo@gmail.com",
+                "Minha pika flamejante",
+                8
         );
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
-        p1.getNome();
-        p1 .getIdade();
-        p1.getEmail();
+
 
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
     }
