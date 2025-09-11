@@ -6,43 +6,43 @@ public class Main {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
 
-        System.out.println("Digite seu gargo: ");
+        System.out.print("Digite seu gargo: ");
         String cargo = leia.nextLine();
 
         System.out.print("Digite sua matricula: ");
         String matricula = leia.nextLine();
 
-        System.out.println("Digite o salario: ");
+        System.out.print("Digite o salario: ");
         double salario = leia.nextDouble();
 
-        System.out.println("Digite o setor: ");
+        System.out.print("Digite o setor: ");
         String setor = leia.nextLine();
 
-        System.out.println("Digite o nome: ");
+        System.out.print("Digite o nome: ");
         String nome = leia.nextLine();
 
-        System.out.println("Digite a Idade: ");
+        System.out.print("Digite a Idade: ");
         int idade = leia.nextInt();
 
-        System.out.println("Digite o CPF: ");
+        System.out.print("Digite o CPF: ");
         String cpf = leia.nextLine();
 
-        System.out.println("Digite o telefone: ");
+        System.out.print("Digite o telefone: ");
         String telefone = leia.nextLine();
 
-        System.out.println("Digite o endereco: ");
+        System.out.print("Digite o endereco: ");
         String endereco = leia.nextLine();
 
-        System.out.println("Digite o data de nascimento: ");
+        System.out.print("Digite o data de nascimento: ");
         String dataNascimento = leia.nextLine();
 
-        System.out.println("Digite o email: ");
+        System.out.print("Digite o email: ");
         String email = leia.nextLine();
 
-        System.out.println("Digite as Falas: ");
+        System.out.print("Digite as Falas: ");
         String Fala = leia.nextLine();
 
-        System.out.println("Digite a quantidade de Passos: ");
+        System.out.print("Digite a quantidade de Passos: ");
         int Passo = leia.nextInt();
 
         Funcionario f1 = new Funcionario(
@@ -61,7 +61,6 @@ public class Main {
         );
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
         f1.getCargo();
-
         f1.getSalario();
         f1.getNome();
         f1.getSetor();
