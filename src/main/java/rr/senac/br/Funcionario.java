@@ -1,6 +1,6 @@
-package rr.senac.br;
+package rr.senac.br; // localização do pacote
 
-public class Funcionario extends People{
+public class Funcionario extends People{  //class funcionario + Herança de atributos da classe People
     public String cargo;
     public String matricula;
     public double salario;
