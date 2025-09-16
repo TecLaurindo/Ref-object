@@ -65,7 +65,7 @@ public class Main {
         f1.getNome();
         f1.getSetor();
         f1.getTelefone();
-
+        f1.getTelefone();
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
     }
 }
