@@ -24,7 +24,7 @@ public class Funcionario extends People{  //class funcionario + Herança de atri
         super(nome,idade,cpf,telefone,endereco,dataNascimento,email,Fala,Passo);
         this.cargo = cargo;
         this.matricula = matricula;
-        this.salario = salario;
+        this.salario = salario-500;
         this.setor = setor;
 
     }
