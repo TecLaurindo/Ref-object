@@ -31,4 +31,11 @@ public class FuncionarioTest {
             System.out.println(" O campo " + campo + " erro " + valorObtido);
         }
     }
+    public static void assertEquals(double esperando, double valorObtido, String campo){
+        if (Math.abs(esperando - valorObtido) > 0.00001) {
+            System.out.println("O valor esperado " + esperando + " não é igual ao valor obtido " + valorObtido);
+        }else {
+            System.out.println("Teste OK! O valor esperado " + esperando + "é igual ao valor obtido " + valorObtido);
+        }
+    }
 }
